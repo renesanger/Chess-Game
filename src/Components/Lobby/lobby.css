@@ -1,0 +1,92 @@
+.lobby
+{
+    background-color:#2E4272;
+    display:flex;
+    width:100%;
+    height: 100%;
+    
+}
+
+.sorting-box
+{   
+    background-color:#4F628E;
+    width: 25%;
+    height: 90%; 
+    margin-top: 80px;
+    margin-left: 20px;  
+    border-radius: .5em; 
+}
+
+.allusers-box
+{
+    display: grid;
+    padding-top: .5%;
+    padding-left: .5%;
+    column-gap: .5%;
+    row-gap: 1%;
+    
+    grid-template-columns: repeat(5,19.4%);
+    grid-template-rows: repeat(3,30%);
+
+    background-color:#7887AB;
+    /* width: 72%;  */
+    height: 90%; 
+    flex-grow: 1;
+    margin-top: 80px;
+    margin-left: 20px;  
+    margin-right: 20px;  
+    border-radius: .5em; 
+
+}
+
+.inbox
+{
+    background-color:#7887AB;
+    /* width: 72%;  */
+    height: 90%; 
+    flex-grow: 1;
+    margin-top: 80px;
+    margin-left: 20px;  
+    margin-right: 20px;  
+    border-radius: .5em; 
+
+}
+
+.user{
+    padding:10px;
+    background-color:"red !important"; 
+    width:"50%"; 
+    height:"50px";
+    margin:"1%"; 
+    border-radius:"0";
+    flex-grow: 1;
+
+}
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 98%;
+  
+ 
+}
+
+/* 
+.gamehistory{
+    background-color:#7887AB;
+    height: 90%; 
+    flex-grow: 1;
+    margin-top: 80px;
+    margin-left: 20px;  
+    margin-right: 20px;  
+    border-radius: .5em; 
+}
+
+.home
+{
+    background-color:#4F628E;
+    display:flex;
+    width:100%;
+    height: 100%;
+    
+} */

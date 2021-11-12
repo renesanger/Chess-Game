@@ -37,10 +37,10 @@ export default function Chessboard()
                         image = `images/bishop_${type}.png`;
                     }
                     else if(j==4 ){
-                        image = `images/queen_${type}.png`;
+                        image = `images/king_${type}.png`;
                     }
                     else if(j==3 ){
-                        image = `images/king_${type}.png`;
+                        image = `images/queen_${type}.png`;
                     }
                 }
                 else{
